@@ -1,0 +1,32 @@
+[
+   {
+        "id": "insertfilepath",
+        "caption": "Insert File Path",
+        "command": "insert_file_path"
+    },
+    {
+        "id": "insertfilename",
+        "caption": "Insert File Name",
+        "command": "insert_file_name"
+    },
+    {
+        "id": "insertfiledir",
+        "caption": "Insert File Directory",
+        "command": "insert_file_directory"
+    },
+    {
+        "id": "copyfilepath",
+        "caption": "Copy File Path",
+        "command": "copy_file_path"
+    },
+    {
+        "id": "copyfilename",
+        "caption": "Copy File Name",
+        "command": "copy_file_name"
+    },
+    {
+        "id": "copyfiledir",
+        "caption": "Copy File Directory",
+        "command": "copy_file_directory"
+    }
+]
