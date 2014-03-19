@@ -17,7 +17,7 @@ The copy commands are made available from the tab context menu, while the insert
 
 ## Key Bindings
 Override the default keyboard shortcuts by adding key mappings to **Key Bindings - User**.
-The default key bindings can opened from **Preferences** > **Package Settings** > **cfpExt** > **Key Bindings - Default**.
+The default key bindings can opened from **Preferences** > **Package Settings** > **Path Tools** > **Key Bindings - Default**.
 
 ## Installation
 
