@@ -4,7 +4,7 @@ A suite of commands for copying or inserting the current file's path in Sublime 
 
 ## Commands
 
-To use the commands, open the Command Palette (**Shift/Super** + **Ctrl** + **P**) and enter one of the following:
+To use the commands, open the Command Palette (**Ctrl/Super** + **Shift** + **P**) and enter one of the following:
 - Insert File Path
 - Insert File Directory
 - Insert File Name
@@ -24,7 +24,7 @@ The default key bindings can opened from **Preferences** > **Package Settings** 
 ### Sublime Package Control
 You can install Path Tools using the excellent [Package Control][] package manager for Sublime Text:
 
-1. Open "Package Control: Install Package" from the Command Palette (**Shift/Super** + **Ctrl** + **P**).
+1. Open "Package Control: Install Package" from the Command Palette (**Ctrl/Super** + **Shift** + **P**).
 2. Select the "Path Tools" option to install Path Tools.
 
 [Package Control]: http://wbond.net/sublime_packages/package_control
