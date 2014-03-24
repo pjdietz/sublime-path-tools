@@ -5,6 +5,11 @@
         "command": "insert_file_path"
     },
     {
+        "id": "insertrelativepath",
+        "caption": "Insert Path Relative to Project",
+        "command": "insert_relative_path"
+    },
+    {
         "id": "insertfilename",
         "caption": "Insert File Name",
         "command": "insert_file_name"
@@ -13,6 +18,11 @@
         "id": "insertfiledir",
         "caption": "Insert File Directory",
         "command": "insert_file_directory"
+    },
+    {
+        "id": "insertrelativedir",
+        "caption": "Insert Directory Relative to Project",
+        "command": "insert_relative_directory"
     },
     {
         "id": "copyfilepath",
