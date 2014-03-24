@@ -4,5 +4,7 @@
 	{ "keys": ["super+alt+shift+c"], "command": "copy_file_directory" },
 	{ "keys": ["super+shift+v"], "command": "insert_file_path" },
 	{ "keys": ["super+alt+v"], "command": "insert_file_name" },
-	{ "keys": ["super+alt+shift+v"], "command": "insert_file_directory" }
+	{ "keys": ["super+alt+shift+v"], "command": "insert_file_directory" },
+	{ "keys": [""], "command": "insert_relative_path" },
+	{ "keys": [""], "command": "insert_relative_directory" }
 ]

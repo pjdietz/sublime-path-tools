@@ -2,6 +2,8 @@
 	
 	{ "command": "insert_file_name", "caption": "Insert File Name" },
 	{ "command": "insert_file_directory", "caption": "Insert File Directory" },
-	{ "command": "insert_file_path", "caption": "Insert File Path" }
+	{ "command": "insert_file_path", "caption": "Insert File Path" },
+	{ "command": "insert_relative_path", "caption": "Insert Path Relative to Project" },
+	{ "command": "insert_relative_directory", "caption": "Insert Directory Relative to Project" }
 	
 ]

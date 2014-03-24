@@ -8,6 +8,8 @@ To use the commands, open the Command Palette (**Ctrl/Super** + **Shift** + **P*
 - Insert File Path
 - Insert File Directory
 - Insert File Name
+- Insert Path Relative to Project
+- Insert Directory Relative to Project
 - Copy File Path
 - Copy File Directory
 - Copy File Name
