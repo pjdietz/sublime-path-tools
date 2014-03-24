@@ -1,0 +1,7 @@
+[
+	
+	{ "command": "insert_file_name", "caption": "Insert File Name" },
+	{ "command": "insert_file_directory", "caption": "Insert File Directory" },
+	{ "command": "insert_file_path", "caption": "Insert File Path" }
+	
+]

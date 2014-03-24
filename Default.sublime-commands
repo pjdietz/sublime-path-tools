@@ -17,7 +17,7 @@
     {
         "id": "copyfilepath",
         "caption": "Copy File Path",
-        "command": "copy_file_path"
+        "command": "copy_path"
     },
     {
         "id": "copyfilename",
