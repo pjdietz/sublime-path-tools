@@ -10,6 +10,11 @@
         "command": "insert_relative_path"
     },
     {
+        "id": "copyrelativepath",
+        "caption": "Copy Path Relative to Project",
+        "command": "copy_relative_path"
+    },
+    {
         "id": "insertfilename",
         "caption": "Insert File Name",
         "command": "insert_file_name"
