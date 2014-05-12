@@ -89,6 +89,20 @@ class CopyFileDirectoryCommand(sublime_plugin.TextCommand):
     def is_enabled(self):
         return bool(self.view.file_name() and len(self.view.file_name()) > 0)
 
+class CopyRelativePathCommand(sublime_plugin.TextCommand):
+
+    def run(self, edit):
+        projectFolders = self.view.window().folders()
+        self.path = self.view.file_name()
+        for folder in projectFolders:
+            if folder in self.view.file_name():
+                self.path = self.path.replace(folder, '')
+                break
+        sublime.set_clipboard(self.path)
+        sublime.status_message("Copied file directory: %s" % self.path)
+
+    def is_enabled(self):
+        return bool(self.view.file_name() and len(self.view.file_name()) > 0)
 
 def replace_text_in_selections(view, edit, text):
     """Replace every selection with the passed text"""
