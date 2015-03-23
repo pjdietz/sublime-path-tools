@@ -96,7 +96,7 @@ class CopyRelativePathCommand(sublime_plugin.TextCommand):
         self.path = self.view.file_name()
         for folder in projectFolders:
             if folder in self.view.file_name():
-                self.path = self.path.replace(folder, '')
+                self.path = self.path.replace(folder, '')[1:]
                 break
         sublime.set_clipboard(self.path)
         sublime.status_message("Copied file directory: %s" % self.path)
