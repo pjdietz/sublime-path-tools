@@ -1,7 +1,21 @@
 [
-	{ "caption": "-" },
-	{ "command": "copy_file_name", "caption": "Copy File Name" },
-    { "command": "copy_file_directory", "caption": "Copy File Directory" },
-    { "command": "copy_relative_path", "caption": "Copy Relative File Path" },
-    { "command": "copy_path", "caption": "Copy File Path" }
+    {
+        "caption": "-"
+    },
+    {
+        "command": "copy_file_name",
+        "caption": "Copy File Name"
+    },
+    {
+        "command": "copy_file_directory",
+        "caption": "Copy File Directory"
+    },
+    {
+        "command": "copy_path",
+        "caption": "Copy File Path"
+    },
+    {
+        "command": "copy_relative_path",
+        "caption": "Copy Relative File Path"
+    }
 ]

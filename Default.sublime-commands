@@ -1,47 +1,38 @@
 [
-   {
-        "id": "insertfilepath",
+    {
         "caption": "Insert File Path",
         "command": "insert_file_path"
     },
     {
-        "id": "insertrelativepath",
-        "caption": "Insert Path Relative to Project",
-        "command": "insert_relative_path"
-    },
-    {
-        "id": "copyrelativepath",
-        "caption": "Copy Path Relative to Project",
-        "command": "copy_relative_path"
-    },
-    {
-        "id": "insertfilename",
-        "caption": "Insert File Name",
-        "command": "insert_file_name"
-    },
-    {
-        "id": "insertfiledir",
         "caption": "Insert File Directory",
         "command": "insert_file_directory"
     },
     {
-        "id": "insertrelativedir",
+        "caption": "Insert File Name",
+        "command": "insert_file_name"
+    },
+    {
+        "caption": "Insert Path Relative to Project",
+        "command": "insert_relative_path"
+    },
+    {
         "caption": "Insert Directory Relative to Project",
         "command": "insert_relative_directory"
     },
     {
-        "id": "copyfilepath",
+        "caption": "Copy Path Relative to Project",
+        "command": "copy_relative_path"
+    },
+    {
         "caption": "Copy File Path",
         "command": "copy_path"
     },
     {
-        "id": "copyfilename",
-        "caption": "Copy File Name",
-        "command": "copy_file_name"
-    },
-    {
-        "id": "copyfiledir",
         "caption": "Copy File Directory",
         "command": "copy_file_directory"
+    },
+    {
+        "caption": "Copy File Name",
+        "command": "copy_file_name"
     }
 ]
