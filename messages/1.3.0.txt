@@ -1,0 +1,43 @@
+Path Tools 1.3.0 Change Log
+
+Default key bindings have been removed as they conflicted with built-in Sublime
+Text key bindings. If you wish to add key binds, please add them as user
+overrides.
+
+For reference, the previous default key binding are as follows:
+
+Linux:
+[
+	{ "keys": ["ctrl+shift+c"], "command": "copy_path" },
+	{ "keys": ["ctrl+alt+c"], "command": "copy_file_name" },
+	{ "keys": ["ctrl+alt+shift+c"], "command": "copy_file_directory" },
+	{ "keys": ["ctrl+shift+v"], "command": "insert_file_path" },
+	{ "keys": ["ctrl+alt+v"], "command": "insert_file_name" },
+	{ "keys": ["ctrl+alt+shift+v"], "command": "insert_file_directory" },
+	{ "keys": [""], "command": "insert_relative_path" },
+	{ "keys": [""], "command": "insert_relative_directory" }
+]
+
+OSX:
+[
+	{ "keys": ["super+shift+c"], "command": "copy_path" },
+	{ "keys": ["super+alt+c"], "command": "copy_file_name" },
+	{ "keys": ["super+alt+shift+c"], "command": "copy_file_directory" },
+	{ "keys": ["super+shift+v"], "command": "insert_file_path" },
+	{ "keys": ["super+alt+v"], "command": "insert_file_name" },
+	{ "keys": ["super+alt+shift+v"], "command": "insert_file_directory" },
+	{ "keys": [""], "command": "insert_relative_path" },
+	{ "keys": [""], "command": "insert_relative_directory" }
+]
+
+Windows:
+[
+	{ "keys": ["ctrl+shift+c"], "command": "copy_path" },
+	{ "keys": ["ctrl+alt+c"], "command": "copy_file_name" },
+	{ "keys": ["ctrl+alt+shift+c"], "command": "copy_file_directory" },
+	{ "keys": ["ctrl+shift+v"], "command": "insert_file_path" },
+	{ "keys": ["ctrl+alt+v"], "command": "insert_file_name" },
+	{ "keys": ["ctrl+alt+shift+v"], "command": "insert_file_directory" },
+	{ "keys": [""], "command": "insert_relative_path" },
+	{ "keys": [""], "command": "insert_relative_directory" }
+]
