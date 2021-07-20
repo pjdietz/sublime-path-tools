@@ -24,6 +24,10 @@
         "command": "copy_relative_path"
     },
     {
+        "caption": "Copy Path Relative to Project + Line",
+        "command": "copy_relative_path_line"
+    },
+    {
         "caption": "Copy File Path",
         "command": "copy_path"
     },
@@ -34,5 +38,4 @@
     {
         "caption": "Copy File Name",
         "command": "copy_file_name"
-    }
-]
+    }]
